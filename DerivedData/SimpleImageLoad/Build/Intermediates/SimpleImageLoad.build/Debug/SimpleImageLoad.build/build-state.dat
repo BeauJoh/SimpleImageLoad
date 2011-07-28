@@ -1,0 +1,228 @@
+TSimpleImageLoad
+v3
+r1
+cCheck dependencies
+cCompile /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl
+cCompileC DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/openCLUtilities.o /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/openCLUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/simple.o /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/simple.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/gaussian_filter.cl.o /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources/gaussian_filter.cl.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCreate i386 bitcode from /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl
+cCreate x86_64 bitcode from /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl
+cCreate gpu_32 bitcode from /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl
+cLd /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/SimpleImageLoad normal x86_64
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E1106D400000000000000EE
+t1309738708
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/OpenCL.framework/OpenCL
+c000000004E1106CF000000000000DD64
+t1309738703
+s56676
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/local/lib/libfreeimage-3.15.0.dylib
+c000000004E240C63000000000065A384
+t1310985315
+s6660996
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources/gaussian_filter.cl.c
+t1311838258
+s2269
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources/gaussian_filter.cl.h
+t1311838258
+s323
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/SimpleImageLoad.LinkFileList
+c000000004E2D7E270000000000000252
+t1311604263
+s594
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/gaussian_filter.cl.o
+t1311838259
+s9908
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/openCLUtilities.o
+t1311646345
+s43292
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/simple.o
+t1311838259
+s83580
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/OpenCL/gaussian_filter.cl.gpu_32.bc
+t1311838260
+s2016
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/OpenCL/gaussian_filter.cl.i386.bc
+t1311838260
+s1872
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/OpenCL/gaussian_filter.cl.x86_64.bc
+t1311838260
+s2048
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/SimpleImageLoad
+t1311838263
+s3155740
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl
+c000000004E31104B000000000000053F
+t1311838283
+s1343
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/FreeImage.h
+c000000004D3C7C20000000000000D3CC
+t1295809568
+s54220
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/main.cpp
+c000000004E2D67300000000000000129
+t1311598384
+s297
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/openCLUtilities.cpp
+c000000004E2E1F3A00000000000030E1
+t1311645498
+s12513
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/openCLUtilities.h
+c000000004E2E1F4200000000000025D4
+t1311645506
+s9684
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/simple.cpp
+c000000004E310FB1000000000000263E
+t1311838129
+s9790
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/dylibsAndFrameworks/libfreeimage-3.15.0.dylib
+c000000004E2D681D000000000065A384
+t1311598621
+s6660996
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/dylibsAndFrameworks/libfreeimage-3.15.0.dylib-x86_64
+c000000004E2D681D000000000065A384
+t1311598621
+s6660996
+
+N/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/dylibsAndFrameworks/libfreeimage.dylib
+c000000004E2D681D000000000065A384
+t1311598621
+s6660996
+
+CBuild AST from /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/main.cpp
+r0
+
+CBuild AST from /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/openCLUtilities.cpp
+r0
+
+CBuild AST from /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/simple.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciescd5616c849e1b341^1daf54c849e1b341^---0#1#0#--18"Check dependencies
+
+CCompile /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl
+s333531592.358278
+e333531593.657409
+r1
+xCompile
+x/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl14d15bc849e1b341^514aa8c949e1b341^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl0000000000000000^607"Compile DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl    cd /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad    /System/Library/Frameworks/OpenCL.framework/Libraries/openclc -x cl -cl-std=CL1.1 -cl-auto-vectorize-enable -gcl-bc-dir OpenCL -emit-gcl /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl -gcl-output-dir /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources
+
+CCompileC DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/gaussian_filter.cl.o /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources/gaussian_filter.cl.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s333531593.667451
+e333531597.054920
+r1
+xCompileC
+xDerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/gaussian_filter.cl.o
+x/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources/gaussian_filter.cl.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection203"Compile /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources/gaussian_filter.cl.c61faaac949e1b341^3f6e0fcd49e1b341^---0#0#0#-19%DVTDocumentLocation2@211"file://localhost/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources/gaussian_filter.cl.c0000000000000000^2301"CompileC DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/gaussian_filter.cl.o DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources/gaussian_filter.cl.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/SimpleImageLoad.hmap -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/include -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources/x86_64 -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources -F/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug -MMD -MT dependencies -MF /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/gaussian_filter.cl.d -c /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources/gaussian_filter.cl.c -o /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/gaussian_filter.cl.o
+
+CCompileC DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/main.o /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/openCLUtilities.o /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/openCLUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s333339138.605931
+e333339146.424972
+r1
+xCompileC
+xDerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/openCLUtilities.o
+x/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/openCLUtilities.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/openCLUtilities.cpp467e9d025adeb341^4431ad0a5adeb341^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/openCLUtilities.cpp0000000000000000^2117"CompileC DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/openCLUtilities.o SimpleImageLoad/openCLUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/SimpleImageLoad.hmap -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/include -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources/x86_64 -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources -F/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug -MMD -MT dependencies -MF /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/openCLUtilities.d -c /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/openCLUtilities.cpp -o /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/openCLUtilities.o
+
+CCompileC DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/simple.o /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/simple.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s333531058.978798
+e333531059.866492
+r1
+xCompileC
+xDerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/simple.o
+x/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/simple.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/simple.cpp:42:6: warning: no previous prototype for function 'cleanKill' [-Wmissing-prototypes,3]
+o void cleanKill(int errNumber){
+o      ^
+o1 warning generated.
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/simple.cppefabfab247e1b341^19cb68b647e1b341^-237"/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/simple.cpp:42:6: warning: no previous prototype for function 'cleanKill' [-Wmissing-prototypes,3] void cleanKill(int errNumber){      ^1 warning generated.1(21%IDEActivityLogMessage2@46"No previous prototype for function 'cleanKill'-333531059#0#176#-1#-23%DVTTextDocumentLocation3@104"file://localhost/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/simple.cpp0000000000000000^41#5#41#5#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@104"file://localhost/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/simple.cpp0000000000000000^2072"CompileC DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/simple.o SimpleImageLoad/simple.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/SimpleImageLoad.hmap -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/include -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources/x86_64 -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources -F/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug -MMD -MT dependencies -MF /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/simple.d -c /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/SimpleImageLoad/simple.cpp -o /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/simple.o
+
+CCreate gpu_32 bitcode from /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl
+s333531593.831922
+e333531593.868315
+r1
+xCreate
+xgpu_32
+xbitcode
+xfrom
+x/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Create gpu_32 bitcode from DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl520fd5c949e1b341^78b5fcc949e1b341^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl0000000000000000^1356"Create gpu_32 bitcode from DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl    cd /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad    /System/Library/Frameworks/OpenCL.framework/Libraries/openclc -x cl -cl-std=CL1.1 -Os -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/SimpleImageLoad.hmap -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/include -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources/x86_64 -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources -F/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug -triple gpu_32-applecl-darwin -emit-llvm-bc /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl -o /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/OpenCL/gaussian_filter.cl.gpu_32.bc
+
+CCreate i386 bitcode from /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl
+s333531593.668097
+e333531593.729943
+r1
+xCreate
+xi386
+xbitcode
+xfrom
+x/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Create i386 bitcode from DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl7219abc949e1b341^a740f6c949e1b341^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl0000000000000000^1350"Create i386 bitcode from DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl    cd /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad    /System/Library/Frameworks/OpenCL.framework/Libraries/openclc -x cl -cl-std=CL1.1 -Os -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/SimpleImageLoad.hmap -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/include -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources/x86_64 -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources -F/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug -triple i386-applecl-darwin -emit-llvm-bc /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl -o /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/OpenCL/gaussian_filter.cl.i386.bc
+
+CCreate x86_64 bitcode from /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl
+s333531593.731276
+e333531593.830585
+r1
+xCreate
+xx86_64
+xbitcode
+xfrom
+x/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Create x86_64 bitcode from DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.clbf49bbc949e1b341^10aefcc949e1b341^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl0000000000000000^1356"Create x86_64 bitcode from DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl    cd /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad    /System/Library/Frameworks/OpenCL.framework/Libraries/openclc -x cl -cl-std=CL1.1 -Os -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/SimpleImageLoad.hmap -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/include -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources/x86_64 -I/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/DerivedSources -F/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug -triple x86_64-applecl-darwin -emit-llvm-bc /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl -o /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/OpenCL/gaussian_filter.cl.x86_64.bc
+
+CLd /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/SimpleImageLoad normal x86_64
+s333531597.061835
+e333531599.386187
+r1
+xLd
+x/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/SimpleImageLoad
+xnormal
+xx86_64
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Link /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/SimpleImageLoaddee80fcd49e1b341^a5db62cf49e1b341^---0#0#0#--910"Ld DerivedData/SimpleImageLoad/Build/Products/Debug/SimpleImageLoad normal x86_64    cd /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/clang++ -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug -F/Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug -filelist /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Intermediates/SimpleImageLoad.build/Debug/SimpleImageLoad.build/Objects-normal/x86_64/SimpleImageLoad.LinkFileList -mmacosx-version-min=10.7 -lfreeimage -framework OpenCL -o /Users/beau/Documents/FourthYear/miscProjects/SimpleImageLoad/DerivedData/SimpleImageLoad/Build/Products/Debug/SimpleImageLoad
+

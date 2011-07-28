@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BEAEFD613DD9EB0009E081C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BEAEFD513DD9EB0009E081C /* main.cpp */; };
+		8B5D8BD913DDADEA00F294CE /* gaussian_filter.cl in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D8BD813DDADEA00F294CE /* gaussian_filter.cl */; };
 		8BEAEFD813DD9EB0009E081C /* SimpleImageLoad.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BEAEFD713DD9EB0009E081C /* SimpleImageLoad.1 */; };
+		8BEAEFE213DD9F2A009E081C /* openCLUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BEAEFDF13DD9F2A009E081C /* openCLUtilities.cpp */; };
+		8BEAEFE313DD9F2A009E081C /* simple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BEAEFE113DD9F2A009E081C /* simple.cpp */; };
+		8BEAEFE513DD9F5B009E081C /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEAEFE413DD9F5B009E081C /* OpenCL.framework */; };
+		8BEAEFE713DD9FB6009E081C /* libfreeimage.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEAEFE613DD9FB6009E081C /* libfreeimage.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +29,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8B5D8BD813DDADEA00F294CE /* gaussian_filter.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; name = gaussian_filter.cl; path = DerivedData/SimpleImageLoad/Build/Products/Debug/gaussian_filter.cl; sourceTree = SOURCE_ROOT; };
 		8BEAEFD113DD9EB0009E081C /* SimpleImageLoad */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleImageLoad; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BEAEFD513DD9EB0009E081C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8BEAEFD713DD9EB0009E081C /* SimpleImageLoad.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SimpleImageLoad.1; sourceTree = "<group>"; };
+		8BEAEFDE13DD9F2A009E081C /* FreeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeImage.h; sourceTree = "<group>"; };
+		8BEAEFDF13DD9F2A009E081C /* openCLUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = openCLUtilities.cpp; sourceTree = "<group>"; };
+		8BEAEFE013DD9F2A009E081C /* openCLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openCLUtilities.h; sourceTree = "<group>"; };
+		8BEAEFE113DD9F2A009E081C /* simple.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simple.cpp; sourceTree = "<group>"; };
+		8BEAEFE413DD9F5B009E081C /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		8BEAEFE613DD9FB6009E081C /* libfreeimage.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreeimage.dylib; path = dylibsAndFrameworks/libfreeimage.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BEAEFE713DD9FB6009E081C /* libfreeimage.dylib in Frameworks */,
+				8BEAEFE513DD9F5B009E081C /* OpenCL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +56,8 @@
 		8BEAEFC613DD9EAF009E081C = {
 			isa = PBXGroup;
 			children = (
+				8BEAEFE613DD9FB6009E081C /* libfreeimage.dylib */,
+				8BEAEFE413DD9F5B009E081C /* OpenCL.framework */,
 				8BEAEFD413DD9EB0009E081C /* SimpleImageLoad */,
 				8BEAEFD213DD9EB0009E081C /* Products */,
 			);
@@ -60,8 +74,12 @@
 		8BEAEFD413DD9EB0009E081C /* SimpleImageLoad */ = {
 			isa = PBXGroup;
 			children = (
-				8BEAEFD513DD9EB0009E081C /* main.cpp */,
+				8BEAEFDE13DD9F2A009E081C /* FreeImage.h */,
+				8BEAEFDF13DD9F2A009E081C /* openCLUtilities.cpp */,
+				8BEAEFE013DD9F2A009E081C /* openCLUtilities.h */,
+				8BEAEFE113DD9F2A009E081C /* simple.cpp */,
 				8BEAEFD713DD9EB0009E081C /* SimpleImageLoad.1 */,
+				8B5D8BD813DDADEA00F294CE /* gaussian_filter.cl */,
 			);
 			path = SimpleImageLoad;
 			sourceTree = "<group>";
@@ -116,7 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEAEFD613DD9EB0009E081C /* main.cpp in Sources */,
+				8BEAEFE213DD9F2A009E081C /* openCLUtilities.cpp in Sources */,
+				8BEAEFE313DD9F2A009E081C /* simple.cpp in Sources */,
+				8B5D8BD913DDADEA00F294CE /* gaussian_filter.cl in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +146,7 @@
 		8BEAEFD913DD9EB0009E081C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -152,7 +172,7 @@
 		8BEAEFDA13DD9EB0009E081C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -171,6 +191,8 @@
 		8BEAEFDC13DD9EB0009E081C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				LD_RUNPATH_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -178,6 +200,8 @@
 		8BEAEFDD13DD9EB0009E081C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				LD_RUNPATH_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -201,6 +225,7 @@
 				8BEAEFDD13DD9EB0009E081C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
